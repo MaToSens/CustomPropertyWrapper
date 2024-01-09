@@ -11,7 +11,8 @@ import SwiftUI
 struct CustomPropertyWrapperApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            FileManagerPropertyWrapperView()
         }
     }
 }
