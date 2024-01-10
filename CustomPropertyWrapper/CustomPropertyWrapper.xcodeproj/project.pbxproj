@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDAEAED22B4E800C0099C540 /* FileManagerKeyPathPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAEAED12B4E800C0099C540 /* FileManagerKeyPathPropertyWrapper.swift */; };
+		BDAEAED42B4E80140099C540 /* FileManagerKeyPathPropertyWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAEAED32B4E80140099C540 /* FileManagerKeyPathPropertyWrapperView.swift */; };
+		BDAEAED72B4E822C0099C540 /* UserSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAEAED62B4E822C0099C540 /* UserSection.swift */; };
 		BDD22AD92B4D67590074DBC6 /* CustomPropertyWrapperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD22AD82B4D67590074DBC6 /* CustomPropertyWrapperApp.swift */; };
 		BDD22ADB2B4D67590074DBC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD22ADA2B4D67590074DBC6 /* ContentView.swift */; };
 		BDD22ADD2B4D675B0074DBC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD22ADC2B4D675B0074DBC6 /* Assets.xcassets */; };
 		BDD22AE02B4D675B0074DBC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD22ADF2B4D675B0074DBC6 /* Preview Assets.xcassets */; };
+		BDD22AEA2B4D6E490074DBC6 /* FileManagerPropertyWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD22AE92B4D6E490074DBC6 /* FileManagerPropertyWrapperView.swift */; };
+		BDD22AED2B4D6E950074DBC6 /* FileManager+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD22AEC2B4D6E950074DBC6 /* FileManager+Extensions.swift */; };
+		BDD22AF02B4D71E70074DBC6 /* FileManagerPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD22AEF2B4D71E70074DBC6 /* FileManagerPropertyWrapper.swift */; };
+		BDD22AF32B4D792F0074DBC6 /* FileManagerCodablePropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD22AF22B4D792F0074DBC6 /* FileManagerCodablePropertyWrapper.swift */; };
+		BDD22AF52B4D793C0074DBC6 /* FileManagerCodablePropertyWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD22AF42B4D793C0074DBC6 /* FileManagerCodablePropertyWrapperView.swift */; };
+		BDD22AF82B4D7AEA0074DBC6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD22AF72B4D7AEA0074DBC6 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BDAEAED12B4E800C0099C540 /* FileManagerKeyPathPropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerKeyPathPropertyWrapper.swift; sourceTree = "<group>"; };
+		BDAEAED32B4E80140099C540 /* FileManagerKeyPathPropertyWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerKeyPathPropertyWrapperView.swift; sourceTree = "<group>"; };
+		BDAEAED62B4E822C0099C540 /* UserSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSection.swift; sourceTree = "<group>"; };
 		BDD22AD52B4D67590074DBC6 /* CustomPropertyWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPropertyWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD22AD82B4D67590074DBC6 /* CustomPropertyWrapperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPropertyWrapperApp.swift; sourceTree = "<group>"; };
 		BDD22ADA2B4D67590074DBC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDD22ADC2B4D675B0074DBC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDD22ADF2B4D675B0074DBC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDD22AE92B4D6E490074DBC6 /* FileManagerPropertyWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerPropertyWrapperView.swift; sourceTree = "<group>"; };
+		BDD22AEC2B4D6E950074DBC6 /* FileManager+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extensions.swift"; sourceTree = "<group>"; };
+		BDD22AEF2B4D71E70074DBC6 /* FileManagerPropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerPropertyWrapper.swift; sourceTree = "<group>"; };
+		BDD22AF22B4D792F0074DBC6 /* FileManagerCodablePropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerCodablePropertyWrapper.swift; sourceTree = "<group>"; };
+		BDD22AF42B4D793C0074DBC6 /* FileManagerCodablePropertyWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerCodablePropertyWrapperView.swift; sourceTree = "<group>"; };
+		BDD22AF72B4D7AEA0074DBC6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +50,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BDAEAED02B4E7FF00099C540 /* FileManagerKeyPathPropertyWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				BDAEAED12B4E800C0099C540 /* FileManagerKeyPathPropertyWrapper.swift */,
+				BDAEAED32B4E80140099C540 /* FileManagerKeyPathPropertyWrapperView.swift */,
+			);
+			path = FileManagerKeyPathPropertyWrapper;
+			sourceTree = "<group>";
+		};
+		BDAEAED52B4E821C0099C540 /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				BDAEAED62B4E822C0099C540 /* UserSection.swift */,
+			);
+			path = ViewComponents;
+			sourceTree = "<group>";
+		};
 		BDD22ACC2B4D67590074DBC6 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +88,12 @@
 			children = (
 				BDD22AD82B4D67590074DBC6 /* CustomPropertyWrapperApp.swift */,
 				BDD22ADA2B4D67590074DBC6 /* ContentView.swift */,
+				BDD22AEB2B4D6E870074DBC6 /* Extensions */,
+				BDD22AF62B4D7ADE0074DBC6 /* Model */,
+				BDD22AEE2B4D71D50074DBC6 /* FileManagerPropertyWrapper */,
+				BDD22AF12B4D79170074DBC6 /* FileManagerCodablePropertyWrapper */,
+				BDAEAED02B4E7FF00099C540 /* FileManagerKeyPathPropertyWrapper */,
+				BDAEAED52B4E821C0099C540 /* ViewComponents */,
 				BDD22ADC2B4D675B0074DBC6 /* Assets.xcassets */,
 				BDD22ADE2B4D675B0074DBC6 /* Preview Content */,
 			);
@@ -65,6 +106,40 @@
 				BDD22ADF2B4D675B0074DBC6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDD22AEB2B4D6E870074DBC6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BDD22AEC2B4D6E950074DBC6 /* FileManager+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BDD22AEE2B4D71D50074DBC6 /* FileManagerPropertyWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				BDD22AEF2B4D71E70074DBC6 /* FileManagerPropertyWrapper.swift */,
+				BDD22AE92B4D6E490074DBC6 /* FileManagerPropertyWrapperView.swift */,
+			);
+			path = FileManagerPropertyWrapper;
+			sourceTree = "<group>";
+		};
+		BDD22AF12B4D79170074DBC6 /* FileManagerCodablePropertyWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				BDD22AF22B4D792F0074DBC6 /* FileManagerCodablePropertyWrapper.swift */,
+				BDD22AF42B4D793C0074DBC6 /* FileManagerCodablePropertyWrapperView.swift */,
+			);
+			path = FileManagerCodablePropertyWrapper;
+			sourceTree = "<group>";
+		};
+		BDD22AF62B4D7ADE0074DBC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDD22AF72B4D7AEA0074DBC6 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +212,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD22AF02B4D71E70074DBC6 /* FileManagerPropertyWrapper.swift in Sources */,
+				BDD22AEA2B4D6E490074DBC6 /* FileManagerPropertyWrapperView.swift in Sources */,
+				BDAEAED42B4E80140099C540 /* FileManagerKeyPathPropertyWrapperView.swift in Sources */,
+				BDD22AED2B4D6E950074DBC6 /* FileManager+Extensions.swift in Sources */,
+				BDD22AF52B4D793C0074DBC6 /* FileManagerCodablePropertyWrapperView.swift in Sources */,
+				BDD22AF82B4D7AEA0074DBC6 /* User.swift in Sources */,
+				BDD22AF32B4D792F0074DBC6 /* FileManagerCodablePropertyWrapper.swift in Sources */,
 				BDD22ADB2B4D67590074DBC6 /* ContentView.swift in Sources */,
+				BDAEAED22B4E800C0099C540 /* FileManagerKeyPathPropertyWrapper.swift in Sources */,
 				BDD22AD92B4D67590074DBC6 /* CustomPropertyWrapperApp.swift in Sources */,
+				BDAEAED72B4E822C0099C540 /* UserSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
