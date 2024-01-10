@@ -14,6 +14,9 @@
 		BDD22AEA2B4D6E490074DBC6 /* FileManagerPropertyWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD22AE92B4D6E490074DBC6 /* FileManagerPropertyWrapperView.swift */; };
 		BDD22AED2B4D6E950074DBC6 /* FileManager+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD22AEC2B4D6E950074DBC6 /* FileManager+Extensions.swift */; };
 		BDD22AF02B4D71E70074DBC6 /* FileManagerPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD22AEF2B4D71E70074DBC6 /* FileManagerPropertyWrapper.swift */; };
+		BDD22AF32B4D792F0074DBC6 /* FileManagerCodablePropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD22AF22B4D792F0074DBC6 /* FileManagerCodablePropertyWrapper.swift */; };
+		BDD22AF52B4D793C0074DBC6 /* FileManagerCodablePropertyWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD22AF42B4D793C0074DBC6 /* FileManagerCodablePropertyWrapperView.swift */; };
+		BDD22AF82B4D7AEA0074DBC6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD22AF72B4D7AEA0074DBC6 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		BDD22AE92B4D6E490074DBC6 /* FileManagerPropertyWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerPropertyWrapperView.swift; sourceTree = "<group>"; };
 		BDD22AEC2B4D6E950074DBC6 /* FileManager+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extensions.swift"; sourceTree = "<group>"; };
 		BDD22AEF2B4D71E70074DBC6 /* FileManagerPropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerPropertyWrapper.swift; sourceTree = "<group>"; };
+		BDD22AF22B4D792F0074DBC6 /* FileManagerCodablePropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerCodablePropertyWrapper.swift; sourceTree = "<group>"; };
+		BDD22AF42B4D793C0074DBC6 /* FileManagerCodablePropertyWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerCodablePropertyWrapperView.swift; sourceTree = "<group>"; };
+		BDD22AF72B4D7AEA0074DBC6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +66,9 @@
 				BDD22AD82B4D67590074DBC6 /* CustomPropertyWrapperApp.swift */,
 				BDD22ADA2B4D67590074DBC6 /* ContentView.swift */,
 				BDD22AEB2B4D6E870074DBC6 /* Extensions */,
+				BDD22AF62B4D7ADE0074DBC6 /* Model */,
 				BDD22AEE2B4D71D50074DBC6 /* FileManagerPropertyWrapper */,
+				BDD22AF12B4D79170074DBC6 /* FileManagerCodablePropertyWrapper */,
 				BDD22ADC2B4D675B0074DBC6 /* Assets.xcassets */,
 				BDD22ADE2B4D675B0074DBC6 /* Preview Content */,
 			);
@@ -90,6 +98,23 @@
 				BDD22AE92B4D6E490074DBC6 /* FileManagerPropertyWrapperView.swift */,
 			);
 			path = FileManagerPropertyWrapper;
+			sourceTree = "<group>";
+		};
+		BDD22AF12B4D79170074DBC6 /* FileManagerCodablePropertyWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				BDD22AF22B4D792F0074DBC6 /* FileManagerCodablePropertyWrapper.swift */,
+				BDD22AF42B4D793C0074DBC6 /* FileManagerCodablePropertyWrapperView.swift */,
+			);
+			path = FileManagerCodablePropertyWrapper;
+			sourceTree = "<group>";
+		};
+		BDD22AF62B4D7ADE0074DBC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDD22AF72B4D7AEA0074DBC6 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +190,9 @@
 				BDD22AF02B4D71E70074DBC6 /* FileManagerPropertyWrapper.swift in Sources */,
 				BDD22AEA2B4D6E490074DBC6 /* FileManagerPropertyWrapperView.swift in Sources */,
 				BDD22AED2B4D6E950074DBC6 /* FileManager+Extensions.swift in Sources */,
+				BDD22AF52B4D793C0074DBC6 /* FileManagerCodablePropertyWrapperView.swift in Sources */,
+				BDD22AF82B4D7AEA0074DBC6 /* User.swift in Sources */,
+				BDD22AF32B4D792F0074DBC6 /* FileManagerCodablePropertyWrapper.swift in Sources */,
 				BDD22ADB2B4D67590074DBC6 /* ContentView.swift in Sources */,
 				BDD22AD92B4D67590074DBC6 /* CustomPropertyWrapperApp.swift in Sources */,
 			);

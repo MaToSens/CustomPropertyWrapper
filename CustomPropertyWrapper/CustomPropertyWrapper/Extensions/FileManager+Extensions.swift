@@ -9,15 +9,10 @@ import Foundation
 
 extension FileManager {
     static func documentsPath(key: String) -> URL {
-        
-        let url = FileManager
+        FileManager
             .default
             .urls(for: .documentDirectory, in: .userDomainMask)
             .first!
             .appending(path: "\(key).txt")
-        
-        print(url)
-        
-        return url
     }
 }

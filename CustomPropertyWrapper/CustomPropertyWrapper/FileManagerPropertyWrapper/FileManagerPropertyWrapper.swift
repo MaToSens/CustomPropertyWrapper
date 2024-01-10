@@ -19,8 +19,8 @@ struct FileManagerPropertyWrapper: DynamicProperty {
     
     var projectedValue: Binding<String> {
         Binding(
-            get: { self.wrappedValue },
-            set: { self.wrappedValue = $0 }
+            get: { wrappedValue },
+            set: { wrappedValue = $0 }
         )
     }
     
@@ -32,12 +32,8 @@ struct FileManagerPropertyWrapper: DynamicProperty {
     
     private func save(_ newValue: String) {
         do {
-            try newValue
-                .write(
-                    to: FileManager.documentsPath(key: key),
-                    atomically: false,
-                    encoding: .utf8
-                )
+            let url = FileManager.documentsPath(key: key)
+            try newValue.write(to: url, atomically: false, encoding: .utf8)
             
             title = newValue
         } catch {
@@ -47,7 +43,8 @@ struct FileManagerPropertyWrapper: DynamicProperty {
     
     private func loadInitialValue(_ defaultValue: String) -> String {
         do {
-            return try String(contentsOf: FileManager.documentsPath(key: key), encoding: .utf8)
+            let url = FileManager.documentsPath(key: key)
+            return try String(contentsOf: url, encoding: .utf8)
         } catch {
             print("Error reading: ", error.localizedDescription)
             return defaultValue
