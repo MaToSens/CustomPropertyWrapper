@@ -1,18 +1,18 @@
 //
-//  FileManagerCodablePropertyWrapperView.swift
+//  FileManagerKeyPathPropertyWrapperView.swift
 //  CustomPropertyWrapper
 //
-//  Created by MaTooSens on 09/01/2024.
+//  Created by MaTooSens on 10/01/2024.
 //
 
 import SwiftUI
 
-struct FileManagerCodablePropertyWrapperView: View {
+struct FileManagerKeyPathPropertyWrapperView: View {
     @State private var userName: String = ""
     @State private var userName2: String = ""
     
-    @FileManagerCodablePropertyWrapper("user_profile") private var user: User?
-    @FileManagerCodablePropertyWrapper("user_profile_2") private var user2: User?
+    @FileManagerKeyPathPropertyWrapper(\.userProfileKeyPath) private var user
+    @FileManagerKeyPathPropertyWrapper(\.userProfileKeyPath2) private var user2
     
     var body: some View {
         VStack(spacing: 20) {
@@ -26,5 +26,5 @@ struct FileManagerCodablePropertyWrapperView: View {
 }
 
 #Preview {
-    FileManagerCodablePropertyWrapperView()
+    FileManagerKeyPathPropertyWrapperView()
 }
